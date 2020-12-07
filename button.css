@@ -1,0 +1,41 @@
+.btn-red
+	{
+	background-color:#A90000;
+	color:#FFFFFF;
+	font-weight: bold;
+	padding: 10px;
+	border : 100px;
+	width: 100px;
+	border-radius: 0px;
+	text-align: center;
+	margin-left : 30px;
+	}
+
+.btn-red:hover {
+	background-color: #FFFFFF;
+	color:#A90000;
+}
+
+@media (max-width: 500px){
+.btn-red {
+	width: 400px;
+	}
+}
+
+@media (max-width: 760px){
+.btn-red {
+	width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+.btn-red:hover {
+	width: 400px;
+	}
+}
+
+@media (max-width: 760px){
+.btn-red:hover {
+	width: 600px;
+	}
+}
